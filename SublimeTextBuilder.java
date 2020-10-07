@@ -29,5 +29,5 @@ class Compile:
 
 Compile(
 	task = "gradlew setupDecompWorkspace",
-	args = ["NameOfMod", "FinalVersion", "MinecraftPath"]
+	args = ["OriginalBuildLibFile", "CustomFinalVersion", "MinecraftPath"]
 );
