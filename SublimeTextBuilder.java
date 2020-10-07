@@ -28,6 +28,6 @@ class Compile:
 		sys.exit()
 
 Compile(
-	task = "task",
+	task = "gradlew setupDecompWorkspace",
 	args = ["NameOfMod", "FinalVersion", "MinecraftPath"]
 );
